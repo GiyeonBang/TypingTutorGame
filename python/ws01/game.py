@@ -18,7 +18,7 @@ class TypingTutor():
         # Main event loop
         while self.running:
             self.check_events()
-            return
+        return
         
     def check_events(self):
         for event in pygame.event.get():
